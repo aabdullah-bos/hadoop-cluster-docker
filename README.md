@@ -1,6 +1,7 @@
 ##Run Hadoop Cluster within Docker Containers
 
 **This fork has been modified for those using Mac OSX and docker for Mac**
+
 Basically, you don't need sudo.
 
 - Blog: [Run Hadoop Cluster in Docker Update](http://kiwenlau.com/2016/06/26/hadoop-cluster-docker-update-english/)
