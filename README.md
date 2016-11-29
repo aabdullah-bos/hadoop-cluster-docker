@@ -1,5 +1,8 @@
 ##Run Hadoop Cluster within Docker Containers
 
+**This fork has been modified for those using Mac OSX and docker for Mac**
+Basically, you don't need sudo.
+
 - Blog: [Run Hadoop Cluster in Docker Update](http://kiwenlau.com/2016/06/26/hadoop-cluster-docker-update-english/)
 - 博客: [基于Docker搭建Hadoop集群之升级版](http://kiwenlau.com/2016/06/12/160612-hadoop-cluster-docker-update/)
 
@@ -12,7 +15,7 @@
 #####1. pull docker image
 
 ```
-sudo docker pull kiwenlau/hadoop:1.0
+docker pull kiwenlau/hadoop:1.0
 ```
 
 #####2. clone github repository
@@ -24,14 +27,14 @@ git clone https://github.com/kiwenlau/hadoop-cluster-docker
 #####3. create hadoop network
 
 ```
-sudo docker network create --driver=bridge hadoop
+docker network create --driver=bridge hadoop
 ```
 
 #####4. start container
 
 ```
 cd hadoop-cluster-docker
-sudo ./start-container.sh
+./start-container.sh
 ```
 
 **output:**
