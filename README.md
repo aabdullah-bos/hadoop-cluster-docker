@@ -1,4 +1,4 @@
-##Run Hadoop Cluster within Docker Containers
+##Run Hadoop Cluster within Docker Containers on a Mac
 
 **This fork has been modified for those using Mac OSX and docker for Mac**
 
