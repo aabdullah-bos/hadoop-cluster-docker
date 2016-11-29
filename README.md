@@ -84,7 +84,7 @@ do 1~3 like section A
 #####2. rebuild docker image
 
 ```
-sudo ./resize-cluster.sh 5
+./resize-cluster.sh 5
 ```
 - specify parameter > 1: 2, 3..
 - this script just rebuild hadoop image with different **slaves** file, which pecifies the name of all slave nodes
@@ -93,7 +93,7 @@ sudo ./resize-cluster.sh 5
 #####3. start container
 
 ```
-sudo ./start-container.sh 5
+./start-container.sh 5
 ```
 - use the same parameter as the step 2
 
